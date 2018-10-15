@@ -1,0 +1,44 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+body{
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    background    : black;
+}
+
+#texto{
+    background : white;
+    width      : 70%;
+    height     : 20em;
+    padding    : 2em;
+    overflow   : scroll;
+    line-height: 1.5em;
+    margin     : 2em 0em;
+}
+
+#ordenes{
+    display: flex;
+}
+
+p{
+    padding     : .3em 0em;
+    line-height : 2em;
+    word-spacing: .2em;
+}
+
+input{
+    padding: .6em;
+}
+
+button{
+    background    : blue;
+    color         : white;
+    font-weight   : bold;
+    letter-spacing: .1em;
+    margin-left   : 2em;
+    padding       : 0em 2em;
+}
